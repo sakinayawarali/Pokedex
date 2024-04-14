@@ -27,7 +27,7 @@ The PokeDex App is a Flutter application that allows users to browse through a c
 1. Clone the repository:
 
 
-git clone https://github.com/your-username/pokedex-app.git
+git clone https://github.com/sakinayawarali/Pokedex
 
 
 2. Navigate to the project directory:
