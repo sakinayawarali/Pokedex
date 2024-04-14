@@ -9,8 +9,8 @@ class Pokemon {
   final String? candy;
   final int? candyCount;
   final String egg;
-  final double? spawnChance; // Change from int to double
-  final double? avgSpawns; // Change from int to double
+  final double? spawnChance; 
+  final double? avgSpawns; 
   final String? spawnTime;
   final List<double> multipliers;
   final List<String> weaknesses;
@@ -55,7 +55,7 @@ class Pokemon {
       multipliers: List<double>.from(json['multipliers'] ?? []),
       weaknesses: List<String>.from(json['weaknesses'] ?? []),
       prevEvolution:
-          List<Map<String, dynamic>>.from(json['next_evolution'] ?? []),
+          List<Map<String, dynamic>>.from(json['prev_evolution'] ?? []),
       nextEvolution:
           List<Map<String, dynamic>>.from(json['next_evolution'] ?? []),
     );

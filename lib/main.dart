@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:pokedex/models/pokedex_model.dart';
 import 'package:pokedex/provider/pokedex_provider.dart';
 import 'package:provider/provider.dart';
 import 'package:pokedex/screens/home_screen.dart';
